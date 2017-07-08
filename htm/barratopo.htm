@@ -34,8 +34,6 @@ IDLojaNum='<IDLojaNum>';
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <br><br>
 
-  <a onclick="closeNav()" href="<StoreDomain>"><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>Home</a>
-
   <script>
    if(""!="<NomeCliente>")
     {document.write("<a onclick='closeNav()'>Ol&aacute;, <NomeCliente></a>")}
@@ -47,6 +45,8 @@ IDLojaNum='<IDLojaNum>';
    if(""=="<NomeCliente>")
     {document.write("<a onclick='closeNav()' href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'>&nbsp;</span>Login ou Cadastro </a>")}
   </script>
+
+  <a onclick="closeNav()" href="<StoreDomain>"><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>Home</a>
 
   <a onclick="closeNav()" href="/account.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-list-alt" aria-hidden="true">&nbsp;</span>Meus Dados</a>
 
