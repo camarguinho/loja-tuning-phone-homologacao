@@ -448,7 +448,7 @@
     z-index: 16;
     top: 0;
     right: 0;
-    background-color:  #ffe6ea;
+    background-color: #e6e6e6;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -458,13 +458,13 @@
     padding: 8px 8px 8px 16px;
     text-decoration: none;
     font-size: 0.75em;
-    color: #818181;
+    color: black;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: #white;
 }
 
 .sidenav .closebtn {
@@ -488,5 +488,5 @@
 }
 
 #mySidenav a:hover {
-  background-color: #ff3355;
+  background-color: #d9d9d9;
 }
