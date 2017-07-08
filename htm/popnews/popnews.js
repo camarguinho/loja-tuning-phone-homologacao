@@ -21,7 +21,7 @@ function PopNews(){
   jQuery('#popupNews, #FullBackground').css('display', 'block');
   
   jQuery.cookie("popupNews", "true",{
-  days:1, // Define o tempo em dias para a exibição do popup
+  days:0, // Define o tempo em dias para a exibição do popup
   hours:0, // Define o tempo em horas para a exibição do popup
   minutes:1 // Define o tempo em minutos para a exibição do popup
   });
