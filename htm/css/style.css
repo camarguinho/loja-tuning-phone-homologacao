@@ -480,7 +480,7 @@
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav a {font-size: 0.75em;}
+  .sidenav a {font-size: 0.85em;}
 }
 
 #mySidenav a {
