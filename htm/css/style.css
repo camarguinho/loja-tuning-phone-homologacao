@@ -439,3 +439,54 @@
   margin: auto;
   width: 50%
 }
+
+/*Side menu*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 16;
+    top: 0;
+    right: 0;
+    background-color:  #ffe6ea;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 0.75em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#myPage {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav a {font-size: 0.75em;}
+}
+
+#mySidenav a {
+  text-decoration: none;
+}
+
+#mySidenav a:hover {
+  background-color: #ff3355;
+}
