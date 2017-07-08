@@ -395,7 +395,7 @@
 
   <br/>
 
-  <nav class="hidden-xs navbar navbar-default navbar-fixed-bottom linear-grad menus">
+  <div class="navbar navbar-default navbar-fixed-bottom linear-grad menus">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2">
@@ -406,15 +406,25 @@
         </button>
       </div>
       <div class="collapse navbar-collapse navbar-left font-custom item-custom" id="myNavbar2">
-        <ul class="nav navbar-nav"> 
+        <ul class="hidden-xs nav navbar-nav"> 
           <li><a href="#produtos">PRODUTOS</a></li>
           <li><a href="#sobre">SOBRE</a></li>
           <li><a href="#diferenciais">DIFERENCIAIS</a></li>
           <li><a href="#contatos">CONTATO</a></li>
         </ul>
+
+        <ul class="visible-xs nav navbar-nav"> 
+          <li><a href="#produtos" class="menu-mobile-2"><span class="glyphicon glyphicon-ok"></span><br>PRODUTOS</a></li>
+
+          <li><a href="#sobre" class="menu-mobile-2"><span class="glyphicon glyphicon-ok"></span><br>SOBRE</a></li>
+
+          <li><a href="#diferenciais" class="menu-mobile-2"><span class="glyphicon glyphicon-ok"></span><br>DIFERENCIAIS</a></li>
+
+          <li><a href="#contatos" class="menu-mobile-2"><span class="glyphicon glyphicon-ok"></span><br>CONTATO</a></li>
+        </ul>
       </div>
     </div>
-  </nav>
+  </div>
 </div>
 
 <script>
