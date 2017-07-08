@@ -1,0 +1,99 @@
+<!-- CEP -->
+<script language=JavaScript src=<BaseLoja>htm/SimulaFreteFC.js></script>
+<script type="text/javascript">
+IDLoja='<IDLoja>'; //Obtém IDLoja para montar links
+IDLojaNum='<IDLojaNum>';
+</script>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" crossorigin="anonymous">
+
+<script>FCLib$.loadAsyncCSS('<PathTo file="htm/css/style.css">');</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Includes CSS -->
+<link rel="stylesheet" href="/wave/V3/waveMin.css?cccfc=1">
+
+<script>FCLib$.loadAsyncCSS('<PathTo file="htm/css/jquery_ui.css">');</script>
+
+<script>iItensCesta=<QtdCesta>;</script>
+
+<script src='<PathTo file="htm/jurosparcelas.js">'></script>
+<script src='<PathTo file="htm/lojalib.js">'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src='<PathTo file="htm/js/autosuggesttbar.js">'></script>
+<script src='<PathTo file="htm/js/autosuggest.js">'></script>
+<script src='<PathTo file="htm/js/ScrollToTheTop.js">'></script>
+<script src='<PathTo file="htm/js/tinynav.js">'></script>
+
+<nav id="mypage" data-spy="scroll" data-target=".navbar" data-offset="60" lang="pt" class="navbar navbar-default navbar-fixed-top linear-grad menus">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="https://www.tuning-phone.com.br/" id="logo">
+        <img width="200px" height="38px" class="img-rounded logo" src="https://www.rumo.com.br/lojas/000<IDLojaNum>/images/LogoTopo.png" alt="logo">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right font-custom item-custom">
+        <li><a href="https://www.tuning-phone.com.br/c/cabos-36814517">Cabos</a></li>
+        <li><a href="https://www.tuning-phone.com.br/c/capas-78428286">Capas</a></li>
+        <li><a href="https://www.tuning-phone.com.br/c/fones-78252810">Fones</a></li>
+        <li><a href="https://www.tuning-phone.com.br/c/peliculas-56515139">Pel&iacute;culas</a></li>
+
+        <li class="dropdown">
+          <a class='dropbtn'>OP&Ccedil;&Otilde;ES <span class='caret'></span></a>
+          <div class="dropdown-content linear-grad">
+            <a href="/prod,idloja,<IDLojaNum>,lancamento,1,novidades.htm"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> Lan&ccedil;amentos</a>
+            <a href="/indique.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Indique a loja</a>
+            <a href="/newsletter.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Newsletter</a>
+            <a href="/prod,idloja,<IDLojaNum>,promocao,1,ofertas.htm"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Promo&ccedil;&otilde;es</a>
+            <a href="/buscaavancada.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Busca detalhada</a>
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <script>
+           if(""!="<NomeCliente>")
+            {document.write("<a class='dropbtn'>OL&Aacute;, <NomeCliente> <span class='caret'></span></a>")}
+           else
+            {document.write("<a class='dropbtn' target='_top'>OL&Aacute;, visitante! <span class='caret'></span></a>")}
+          </script>
+          <div class="dropdown-content linear-grad">
+            <script>
+             if(""=="<NomeCliente>")
+              {document.write("<a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Login ou Cadastro</a>")}
+            </script>
+
+            <a href="/account.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Meus Dados</a>
+
+            <a href="/account.asp?idloja=<IDLojaNum>&orders=1
+            "><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Meus Pedidos</a>
+
+            <a href="/addProduto.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Sacola: R$ <ValorCesta></a>
+
+            <a href="/addProduto.asp?idloja=<IDLojaNum>"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Itens: <QtdCesta></a>
+            <script>
+             if(""!="<NomeCliente>")
+              {document.write("<a href='cadastro.asp?IDLoja=<IDLoja>&pp=3&logoff=1' target='_top'><span class='glyphicon glyphicon-log-out' aria-hidden='true'></span> Sair</a>")}
+            </script>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br/><br/><br/>
+
+
