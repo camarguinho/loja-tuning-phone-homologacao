@@ -407,7 +407,7 @@ a #HeaderCartTotalFC{color:<tag-FCCSSColor18>;position:relative;top:3px;font-siz
 #idShowFilters button:hover{background:<tag-FCCSSColor4>}
 #idHideFilters button{padding:4px 10px 4px 10px;font-size:11px;font-weight:bold;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;cursor:pointer;background-color:<tag-FCCSSColor4>;border:0 solid <tag-FCCSSColor4>;color:<tag-FCCSSColor1>;}
 #idHideFilters button:hover{background:<tag-FCCSSColor5>}
-#idFiltersFC{font-size:0.9em;margin:10px 0 10px 0;border-style:solid;border-width:1px;box-sizing:border-box;float:left;width:100%;border-radius:5px;-webkit-border-radius:5px;-moz-border-border-radius:5px;width:100%;display:table;box-sizing:border-box;border-color:<tag-FCCSSColor21>;background-color:<tag-FCCSSColor1>;}
+#idFiltersFC{font-size:0.9em;margin:10px 0 10px 0;border-style:solid;border-width:1px;box-sizing:border-box;float:left;width:100%;border-radius:5px;-webkit-border-radius:5px;-moz-border-border-radius:5px;width:100%;display:table;box-sizing:border-box;border-color:<tag-FCCSSColor21>;background-color:#c0c0c0;}
 #idFiltersFC ul li{padding:3px;font-size:0.8em;}
 #idFiltersFC ul li select{padding:5px;border-radius:3px;background-image:none;color:<tag-FCCSSColor4>;}
 .EstTitQts{font-family:'Open Sans',verdana,arial !important;font-weight:600;font-size:16px !important;}
