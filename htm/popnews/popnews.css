@@ -3,7 +3,7 @@
 #popupNews{position: absolute; z-index: 999999991; background:#fff; width: 600px; min-height: 400px; border-radius: 5px; box-shadow: 0 0 5px 0 black; text-align: center; padding:5px 10px; display: none;
 background-image: url('https://www.rumo.com.br/lojas/00035065/images/popupnews.jpg');}
 #popupNews h1{color:#0574c9; top:0px; left:2px;}
-#popupNews span{color:#423e3e; font-size: 1.4em; font-weight: bold;}
+#popupNews span{color:#423e3e; font-size: 1.25em; font-weight: bold;}
 .btnClose{width: auto; height:auto; display: block; padding:10px 3px 0 0; float: right; }
 #formPopup input[type="text"], input[type="email"]{background: #fff; border-radius: 5px; box-shadow: -1px 0 3px 0 #ccc inset; padding: 5px 5px; width: 210px; color:#000}
 .btnSubPop{border: 0px; background: url('../../images/popnews/btnSubPop.png') no-repeat; width: 138px; height: 47px; cursor:pointer;}
