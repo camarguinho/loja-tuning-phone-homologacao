@@ -465,7 +465,7 @@ a #HeaderCartTotalFC{color:<tag-FCCSSColor18>;position:relative;top:3px;font-siz
 .FCRateProd td{vertical-align:middle;}
 
 /* ProdDet SocialLinks */
-.SocialProdLinks{float:right;max-width:300px;min-height:30px;margin:5px 0 0 0;}
+.SocialProdLinks{float:right;max-width:350px;min-height:30px;margin:5px 0 0 0;}
 .FooterSocialIcons{margin:initial !important;max-width:150px;}
 .ProdRating{float:left;}
 .ProdRating a{text-decoration:underline;color:<tag-FCCSSColor7>;}
