@@ -10,18 +10,20 @@
       <a href="#" class="btnClose">
       <img src="<BaseLoja>images/popnews/btnClosePop.png" alt="" width="30px" border="0">
       </a><br>
-      <div class="msg">Cadastre-se e receba novidades e ofertas imperd&iacute;veis!</div><br><br>
-      <form class="form-inline" id="formPopup" name=FormNewsletter method=GET action="Newsletter.asp" onSubmit="return ValidaNew();"/>
+      <div class="msg">Cadastre-se e receba novidades</div>
+      <div class="msg">e ofertas imperd&iacute;veis!</div><br><br>
+      <form id="formPopup" name=FormNewsletter method=GET action="Newsletter.asp" onSubmit="return ValidaNew();"/>
         <div class="form-group">
           <input type=hidden name=IDLoja value="<idloja>">
           <input type=hidden name=Y value="<Y>">
           <input type=hidden name=FormatoHTML value="True">
           <input type=hidden name=EnviarAssinante value="Enviar">
           <input type="text" required name=NomeAssinante placeholder="Nome" maxlength="60">
-          <input type="email" required name=Email placeholder="Seu e-mail" maxlength="60">
-          &nbsp;
-          <button type="submit" class="form-control btn btn-primary btnSubPop">Enviar</button>
         </div>
+        <div class="form-group">
+          <input type="email" required name=Email placeholder="Seu e-mail" maxlength="60">
+        </div>
+        <button type="submit" class="form-control btn btn-primary btnSubPop">Enviar</button>
       </form>
     </div>
   </div>
