@@ -1,7 +1,7 @@
 /* PopNews*/
 #FullBackground{position: absolute; min-width: 90%; min-height: 90%; background: #000; z-index: 99999999; top: 0; bottom: 0; left: 0; right: 0; overflow: hidden; opacity: 0.55; display: none;}
 #popupNews{position: absolute; z-index: 999999991; background:#fff; width: 438px; min-height: 274px; border-radius: 5px; box-shadow: 0 0 5px 0 black; text-align: center; padding:5px 10px; display: none; background-repeat: no-repeat;
-background-image: url('https://www.rumo.com.br/lojas/00035065/images/background-newsletters.jpg');}
+background-image: url('https://www.rumo.com.br/lojas/00035065/images/background-newsletters-min.jpg');}
 #popupNews h1{color:#0574c9; top:0px; left:2px;}
 .msg{color:#595959; font-size: 1.2em; font-weight: bold; letter-spacing: 0.02em;}
 .btnClose{padding: 8px; font-size: 15px; color: white; background: #ff4d4d; border: 0; box-shadow: 0 0 5px 0 #ccc; text-transform: capitalize; outline-color: transparent; cursor: pointer; text-decoration: none; margin: 1.1111rem 0; width: 25%;}
