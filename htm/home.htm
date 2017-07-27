@@ -6,7 +6,9 @@
 <div id="FullBackground"></div>
 <div id="popupNews" class="container">
   <div class="row">
-    <div class="col-sm-12 col-md-12 col-lg-12">
+    <div class="col-sm-12 col-md-12 col-lg-12"><br>
+      <div class="msg">Quer receber novidades</div>
+      <div class="msg">e promoções exclusivas por e-mail?</div><br>
       <form id="formPopup" name=FormNewsletter method=GET action="Newsletter.asp" onSubmit="return ValidaNew();"/>
         <div class="form-group">
           <input type=hidden name=IDLoja value="<idloja>">
@@ -18,7 +20,7 @@
         <div class="form-group">
           <input type="email" required name=Email placeholder="Seu e-mail" maxlength="60">
         </div>
-        <button type="submit" class="btnSubPop">Enviar</button>
+        <button type="submit" class="btnSubPop">Com certeza</button>
         <button type="submit" class="btnClose">Agora n&atilde;o</button>
       </form>
     </div>
