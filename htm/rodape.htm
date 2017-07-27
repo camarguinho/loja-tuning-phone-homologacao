@@ -26,6 +26,28 @@
     </div>
 
     <br/>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="newsletters">
+              <form class="form-inline" id="formPopup" name=FormNewsletter method=GET action="Newsletter.asp" onSubmit="return ValidaNew();">
+                <input type=hidden name=IDLoja value="<idloja>">
+                <input type=hidden name=Y value="<Y>">
+                <input type=hidden name=FormatoHTML value="True">
+                <input type=hidden name=EnviarAssinante value="Enviar">
+
+                <label class="sr-only" for="inlineFormInput">Nome</label>
+                <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" required name=NomeAssinante placeholder="Nome" maxlength="60">
+
+                <label class="sr-only" for="inlineFormInputGroup">E-mail</label>
+                <input type="text" class="form-control" id="inlineFormInputGroup" required name=Email placeholder="E-mail" maxlength="60">
+                <button type="submit" class="form-control btn btn-primary">Cadastrar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <br/>
 
     <div class="container-fluid info">
       <div class="row col-sm-12" align="justify">
