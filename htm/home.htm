@@ -7,10 +7,8 @@
 <div id="popupNews" class="container">
   <div class="row">
     <div class="col-sm-12 col-md-12 col-lg-12">
-      <a href="#" class="btnClose">
-      <img src="<BaseLoja>images/popnews/btnClosePop.png" alt="" width="30px" border="0">
-      </a>
-      <div class="msg">Cadastre-se e receba novidades <br> e ofertas imperd&iacute;veis!</div><br>
+      <div class="msg">Assine nossas newsletters!</div><br>
+      <img src="https://www.rumo.com.br/lojas/00035065/images/popupnews2.jpg">
       <form id="formPopup" name=FormNewsletter method=GET action="Newsletter.asp" onSubmit="return ValidaNew();"/>
         <div class="form-group">
           <input type=hidden name=IDLoja value="<idloja>">
@@ -23,6 +21,7 @@
           <input type="email" required name=Email placeholder="Seu e-mail" maxlength="60">
         </div>
         <button type="submit" class="btnSubPop">Enviar</button>
+        <button type="submit" class="btnClose">Agora n&atilde;o</button>
       </form>
     </div>
   </div>
