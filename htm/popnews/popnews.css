@@ -1,5 +1,5 @@
 /* PopNews*/
-#FullBackground{position: absolute; min-width: 100%; min-height: 100%; background: #000; z-index: 99999999; top: 0; bottom: 0; left: 0; right: 0; overflow: hidden; opacity: 0.55; display: none;}
+#FullBackground{position: absolute; min-width: 90%; min-height: 90%; background: #000; z-index: 99999999; top: 0; bottom: 0; left: 0; right: 0; overflow: hidden; opacity: 0.55; display: none;}
 #popupNews{position: absolute; z-index: 999999991; background:#fff; width: 450px; min-height: 300px; border-radius: 5px; box-shadow: 0 0 5px 0 black; text-align: center; padding:5px 10px; display: none; background-repeat: no-repeat;
 background-image: url('https://www.rumo.com.br/lojas/00035065/images/popupnews.jpg');}
 #popupNews h1{color:#0574c9; top:0px; left:2px;}
