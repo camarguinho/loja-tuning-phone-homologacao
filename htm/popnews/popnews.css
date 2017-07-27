@@ -5,5 +5,5 @@ background-image: url('https://www.rumo.com.br/lojas/00035065/images/popupnews.j
 #popupNews h1{color:#0574c9; top:0px; left:2px;}
 .msg{color:#423e3e; font-size: 1.25em; font-weight: bold;}
 .btnClose{width: auto; height:auto; display: block; padding:10px 3px 0 0; float: right; }
-#formPopup input[type="text"], input[type="email"]{background: #fff; border-radius: 5px; box-shadow: -1px 0 3px 0 #ccc inset; padding: 5px 5px; width: 210px; color:#000}
-.btnSubPop{border: 0px; cursor:pointer; color: white; background: black;}
+#formPopup input[type="text"], input[type="email"]{background: #fff; border-radius: 5px; box-shadow: -1px 0 3px 0 #ccc inset; padding: 5px 5px; width: 75%; color:#000}
+.btnSubPop{border: 0px; cursor:pointer; color: white; background: black; width: 75%;}
