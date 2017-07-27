@@ -908,7 +908,7 @@ function fnLoginShowUserName(user){
   }
 });*/
 
-function userDontGo(oParam){
+/*function userDontGo(oParam){
   var OpenDontGoPopup=document.getElementById('ShowDontGoPopup');
   if(OpenDontGoPopup){
     document.getElementById("idBtnDontGoClose").src=oParam.DontGoBtnClose; //Close button
@@ -920,7 +920,7 @@ function userDontGo(oParam){
     var CloseDontGoPopup=document.getElementsByClassName("DontGoPopupCloseButton")[0];
     CloseDontGoPopup.onclick=function(){OpenDontGoPopup.style.display="none";}
   }
-}
+}*/
 
 function fnProgressBarLoading(){
   NProgress.start();
