@@ -3,21 +3,28 @@
 <script type="text/javascript" src="<BaseLoja>htm/popnews/jQueryCookie.js"></script>
 <script type="text/javascript" src="<BaseLoja>htm/popnews/popnews.js"></script>
 <link type="text/css" rel="stylesheet" href="<BaseLoja>htm/popnews/popnews.css">
-<div id="FullBackground" class="container"></div>
-<div id="popupNews">
-<a href="#" class="btnClose">
-<img src="<BaseLoja>images/popnews/btnClosePop.png" alt="" width="30px" border="0">
-</a>
-<span>Cadastre-se e receba novidades e ofertas imperd&iacute;veis!</span><br><br>
-<form class="form-inline" id="formPopup" name=FormNewsletter method=GET action="Newsletter.asp" onSubmit="return ValidaNew();"/>
-    <input type=hidden name=IDLoja value="<idloja>">
-    <input type=hidden name=Y value="<Y>">
-    <input type=hidden name=FormatoHTML value="True">
-    <input type=hidden name=EnviarAssinante value="Enviar">
-    <input type="text" required name=NomeAssinante placeholder="Nome" maxlength="60">
-    <input type="email" required name=Email placeholder="Seu e-mail" maxlength="60"><br><br>
-    <button type="submit" class="form-control btn btn-primary btnSubPop">Enviar</button>
-</form>
+<div id="FullBackground"></div>
+<div id="popupNews" class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+      <a href="#" class="btnClose">
+      <img src="<BaseLoja>images/popnews/btnClosePop.png" alt="" width="30px" border="0">
+      </a>
+      <span>Cadastre-se e receba novidades e ofertas imperd&iacute;veis!</span><br><br>
+      <form class="form-inline" id="formPopup" name=FormNewsletter method=GET action="Newsletter.asp" onSubmit="return ValidaNew();"/>
+        <div class="form-group">
+          <input type=hidden name=IDLoja value="<idloja>">
+          <input type=hidden name=Y value="<Y>">
+          <input type=hidden name=FormatoHTML value="True">
+          <input type=hidden name=EnviarAssinante value="Enviar">
+          <input type="text" required name=NomeAssinante placeholder="Nome" maxlength="60">
+          <input type="email" required name=Email placeholder="Seu e-mail" maxlength="60">
+          &nbsp;
+          <button type="submit" class="form-control btn btn-primary btnSubPop">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 <script type="text/javascript">PopNews();</script>
 <!-- PopNews -->
