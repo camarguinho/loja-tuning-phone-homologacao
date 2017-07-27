@@ -866,7 +866,7 @@ function fnLoginShowUserName(user){
 }
 
 // Don't Go Popup
-FCLib$.onReady(function(){
+/*FCLib$.onReady(function(){
   if(FCLib$.GetID("overlay")){
     //Dynamic Don't Go Container
     var dynamicDontGoContainer = document.createElement('div');
@@ -906,7 +906,7 @@ FCLib$.onReady(function(){
     DontGoAltParam:"UM DESCONTO ESPECIAL PARA VOCÊ!"}, //Alt Param
     "DontGoCookie"); //Cookie name
   }
-});
+});*/
 
 function userDontGo(oParam){
   var OpenDontGoPopup=document.getElementById('ShowDontGoPopup');
