@@ -502,8 +502,9 @@
   background-position: center;
   background-image: url('https://www.rumo.com.br/lojas/00035065/images/section-newsletters-min.jpg');
   text-align: center;
+  padding: 60px;
 }
 
 .btnSubNews{
-  padding: 8px; font-size: 15px; color: black; background: silver; border: 0; box-shadow: 0 0 5px 0 #ccc; text-transform: capitalize; outline-color: transparent; cursor: pointer; text-decoration: none; margin: 1.1111rem 0; width: 25%;
+  padding: 8px; font-size: 15px; color: black; background: yellow; border: 0; box-shadow: 0 0 5px 0 #ccc; text-transform: capitalize; outline-color: transparent; cursor: pointer; text-decoration: none; margin: 1.1111rem 0;
 }
