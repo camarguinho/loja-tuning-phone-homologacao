@@ -29,7 +29,7 @@ span .FooterNewsletterInput{height:38px;font-size:14px;border:1px solid <tag-FCC
 .FooterTecHeightFC{padding:10px 0 3px 0;}
 .CompanyAddressLine1{margin:0 0 0 3px}
 .CompanyAddressLine2{clear:both;float:left;margin:2px 0 0 26px}
-.FooterTitleTxt{display:block;font-family:'Open Sans',verdana,arial !important;font-weight:600;margin:0 auto 8px;text-align:left;color:<tag-FCCSSSecondMainColor>}
+.FooterTitleTxt{display:block;font-family: Audiowide, 'Open Sans',verdana,arial !important;font-weight:600;margin:0 auto 8px;text-align:left;color:<tag-FCCSSSecondMainColor>}
 .FooterULPaymentFC li{display:inline;}
 .FooterULSecurityFC li{display:inline;}
 .panel-primary>.panel-heading {color: #fff; background-color: blue; border-color: black;}
