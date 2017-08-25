@@ -51,6 +51,7 @@
     color: white;
     text-align: center;
     text-decoration: none;
+    padding-top: 16px;
   }
 
   li a:hover, .dropdown:hover .dropbtn {
