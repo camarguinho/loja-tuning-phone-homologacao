@@ -114,7 +114,7 @@
     min-height: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size: contain;
     -o-background-size: cover;
     background-position: center;
     background-image: url('https://www.rumo.com.br/lojas/00033937/images/tuning_phone-black_friday-v-1.png');
