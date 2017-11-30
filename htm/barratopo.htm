@@ -120,19 +120,14 @@ NomeCliente='<NomeCliente>';
 
           <li class="dropdown">
             <script>
-              function fnLoginUserName(NameUser){
-              var oContentLogin=document.getElementById("loginInfo");
-              if(NameUser!=""){
-              oContentLogin.innerHTML="Olá, <b>"+NameUser+"</b>,<a href='/cadastro.asp?idloja="+FC$.IDLoja+"&logoff=1' target='_top'><b>sair</b></a>";
-              }
-              else{
-              oContentLogin.innerHTML="Olá, <b>visitante</b> | Faça seu <a href='/cadastro.asp?idloja="+FC$.IDLoja+"&pp=3&passo=1&sit=1'><b>login</b></a>";
-              }
-              }
-              </script>
+             if(""!=NameUser)
+              {document.write("<a class='dropbtn'>OL&Aacute;, <NomeCliente> <span class='caret'></span></a>")}
+             else
+              {document.write("<a class='dropbtn' target='_top'>OL&Aacute;, visitante! <span class='caret'></span></a>")}
+            </script>
             <div class="dropdown-content linear-grad">
               <script>
-               if(""=="<NomeCliente>")
+               if(""==NameUser)
                 {document.write("<a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Login ou Cadastro</a>")}
               </script>
 
