@@ -120,14 +120,14 @@ NomeCliente='<NomeCliente>';
 
           <li class="dropdown">
             <script>
-             if(""!=NameUser)
+             if(""!="<NomeCliente>")
               {document.write("<a class='dropbtn'>OL&Aacute;, <NomeCliente> <span class='caret'></span></a>")}
              else
               {document.write("<a class='dropbtn' target='_top'>OL&Aacute;, visitante! <span class='caret'></span></a>")}
             </script>
             <div class="dropdown-content linear-grad">
               <script>
-               if(""==NameUser)
+               if(""=="<NomeCliente>")
                 {document.write("<a href='/cadastro.asp?idloja=<IDLojaNum>&pp=3&passo=1&sit=1'><span class='glyphicon glyphicon-log-in' aria-hidden='true'></span> Login ou Cadastro</a>")}
               </script>
 
